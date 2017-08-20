@@ -1,0 +1,17 @@
+header{
+    background: #FFFFFF;
+    display:flex;
+    height:50px;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    h1{
+        font-size:22px;
+        font-weight:bold;
+        flex:1 1 50%;
+        line-height:50px;
+        margin:0;
+        padding:0;
+    }   
+}

@@ -1,0 +1,198 @@
+.sect1{
+    
+    background-image:url("/images/intro.jpg");
+    height:600px;
+    padding-top:50px;
+    width:100%;
+    .hey{
+        font-size:4em;
+        margin:  200px auto 0 auto;
+        width:100px;
+        
+    }
+
+    .txt1{
+        font-size:19px;
+        margin:0 auto;   
+        text-align: center;
+        width:820px;
+    }
+}
+
+.sect2{
+    background-image:url("/images/one.jpg");
+    height:600px;
+    padding-top:50px;
+    width:100%;
+    
+    .container{
+        background: white;
+        float: right;
+        height:280px;
+        margin-top: 190px;
+        width:510px;
+        
+        .whatido{
+            font-size:2em;
+            margin-left: 44px;
+            margin-top: 59px;
+        }
+        .txt2{
+            margin-left: 44px;
+            margin-right: 44px;
+            margin-top:25px;
+        }
+    }
+}
+
+.sect3{
+    background-image:url("/images/two.jpg");
+    height:600px;
+    padding-top:50px;
+    width:100%;
+    
+    .container2{
+        background: white;
+        float: left;
+        height:280px;
+        margin-top: 190px;
+        width:510px;
+        .whoiam{
+            font-size:2em;
+            margin-left: 44px;
+            margin-top: 59px;
+        }
+        .txt3{
+            margin-left: 44px;
+            margin-right: 44px;
+            margin-top:25px;
+        }
+    }
+}
+
+.sect4{
+    
+    padding-top:50px;
+    width:100%;
+    
+    .mywork{
+        margin: 90px auto 0 auto;
+        width:100px;
+    }
+    
+    .txt4{
+        margin:22px auto;
+        text-align:center;
+        width:44em;
+    }
+    
+    .containerMywork{
+        clear:right;
+        height: auto;
+        min-height: 900px;
+        margin:auto;
+        width:45em;
+        
+        .item{
+    
+            float:left;
+            height:282px;
+            margin-right:0;
+            margin-top:-10px;
+            overflow:hidden;
+            width:50%;
+            
+            
+        }
+        
+        
+        .item:nth-child(2n){
+            clear:right;
+        }
+        
+
+    }
+}
+
+.sectcontact{
+    padding-top:50px;
+    width:100%;
+    
+    .sayhello{
+        margin: 20px auto 0 auto;
+        width:100px;
+    }
+    
+    .txtcontact{
+        margin:22px auto;
+        text-align:center;
+        width:44em;
+    }
+    
+    .containerContact{
+        height: 370px;
+        margin:auto;
+        width:45em;
+        background:white;
+        
+        .topRow {
+            flex-direction:row;
+            justify-content: space-evenly;
+            display:flex;
+            padding: 35px 35px 20px 35px;
+            
+        }
+        
+        .inputs{
+            flex:0;
+        }
+        .inputmessage{
+             padding-left:auto;
+             padding-right:auto;
+             width:43em;
+             textarea{
+                 border: 2px solid #C0C0C0;
+                 border-radius: 6px;
+                 box-sizing: border-box;
+                 height:170px;
+                 margin-left: 42px;
+                 width:630px;
+             }
+            
+        }
+        
+        input{
+           
+            border: 2px solid #C0C0C0;
+            border-radius: 6px;
+            box-sizing: border-box;
+            height: 30px;
+            padding-left: 6px;
+            width: 310px;
+            
+        }
+        
+        .submitbtn{
+            width:100%;
+            margin-top: 15px;
+            input{
+                background-color: #4CAF50;
+                border-radius: 55px;
+                border: none;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                height:60px;
+                margin-left: 22.5em;
+                width:120px;
+                
+            }
+        }
+        
+        
+        
+        
+    }
+
+    
+}

@@ -1,0 +1,220 @@
+nav {
+  flex: 1 1 50%;
+  position: relative; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0; }
+    nav ul li {
+      border-right: 1px #6A6D7C solid;
+      display: inline;
+      margin: 0 0 0 12px;
+      padding: 5px 12px 5px 0; }
+      nav ul li a {
+        color: #6A6D7C;
+        font-size: 17px;
+        line-height: 50px;
+        text-decoration: none;
+        transition: color 1s; }
+      nav ul li :hover {
+        color: #FF0000; }
+    nav ul :last-child {
+      border: none; }
+
+header {
+  background: #FFFFFF;
+  display: flex;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%; }
+  header h1 {
+    font-size: 22px;
+    font-weight: bold;
+    flex: 1 1 50%;
+    line-height: 50px;
+    margin: 0;
+    padding: 0; }
+
+footer {
+  background-color: #333333; }
+
+.sect1 {
+  background-image: url("/images/intro.jpg");
+  height: 600px;
+  padding-top: 50px;
+  width: 100%; }
+  .sect1 .hey {
+    font-size: 4em;
+    margin: 200px auto 0 auto;
+    width: 100px; }
+  .sect1 .txt1 {
+    font-size: 19px;
+    margin: 0 auto;
+    text-align: center;
+    width: 820px; }
+
+.sect2 {
+  background-image: url("/images/one.jpg");
+  height: 600px;
+  padding-top: 50px;
+  width: 100%; }
+  .sect2 .container {
+    background: white;
+    float: right;
+    height: 280px;
+    margin-top: 190px;
+    width: 510px; }
+    .sect2 .container .whatido {
+      font-size: 2em;
+      margin-left: 44px;
+      margin-top: 59px; }
+    .sect2 .container .txt2 {
+      margin-left: 44px;
+      margin-right: 44px;
+      margin-top: 25px; }
+
+.sect3 {
+  background-image: url("/images/two.jpg");
+  height: 600px;
+  padding-top: 50px;
+  width: 100%; }
+  .sect3 .container2 {
+    background: white;
+    float: left;
+    height: 280px;
+    margin-top: 190px;
+    width: 510px; }
+    .sect3 .container2 .whoiam {
+      font-size: 2em;
+      margin-left: 44px;
+      margin-top: 59px; }
+    .sect3 .container2 .txt3 {
+      margin-left: 44px;
+      margin-right: 44px;
+      margin-top: 25px; }
+
+.sect4 {
+  padding-top: 50px;
+  width: 100%; }
+  .sect4 .mywork {
+    margin: 90px auto 0 auto;
+    width: 100px; }
+  .sect4 .txt4 {
+    margin: 22px auto;
+    text-align: center;
+    width: 44em; }
+  .sect4 .containerMywork {
+    clear: right;
+    height: auto;
+    min-height: 900px;
+    margin: auto;
+    width: 45em; }
+    .sect4 .containerMywork .item {
+      float: left;
+      height: 282px;
+      margin-right: 0;
+      margin-top: -10px;
+      overflow: hidden;
+      width: 50%; }
+    .sect4 .containerMywork .item:nth-child(2n) {
+      clear: right; }
+
+.sectcontact {
+  padding-top: 50px;
+  width: 100%; }
+  .sectcontact .sayhello {
+    margin: 20px auto 0 auto;
+    width: 100px; }
+  .sectcontact .txtcontact {
+    margin: 22px auto;
+    text-align: center;
+    width: 44em; }
+  .sectcontact .containerContact {
+    height: 370px;
+    margin: auto;
+    width: 45em;
+    background: white; }
+    .sectcontact .containerContact .topRow {
+      flex-direction: row;
+      justify-content: space-evenly;
+      display: flex;
+      padding: 35px 35px 20px 35px; }
+    .sectcontact .containerContact .inputs {
+      flex: 0; }
+    .sectcontact .containerContact .inputmessage {
+      padding-left: auto;
+      padding-right: auto;
+      width: 43em; }
+      .sectcontact .containerContact .inputmessage textarea {
+        border: 2px solid #C0C0C0;
+        border-radius: 6px;
+        box-sizing: border-box;
+        height: 170px;
+        margin-left: 42px;
+        width: 630px; }
+    .sectcontact .containerContact input {
+      border: 2px solid #C0C0C0;
+      border-radius: 6px;
+      box-sizing: border-box;
+      height: 30px;
+      padding-left: 6px;
+      width: 310px; }
+    .sectcontact .containerContact .submitbtn {
+      width: 100%;
+      margin-top: 15px; }
+      .sectcontact .containerContact .submitbtn input {
+        background-color: #4CAF50;
+        border-radius: 55px;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        height: 60px;
+        margin-left: 22.5em;
+        width: 120px; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("/fonts/icomoon.eot?hl50lu");
+  src: url("/fonts/icomoon.eot?hl50lu#iefix") format("embedded-opentype"), url("/fonts/icomoon.ttf?hl50lu") format("truetype"), url("/fonts/icomoon.woff?hl50lu") format("woff"), url("/fonts/icomoon.svg?hl50lu#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-facebook:before {
+  content: "\ea90"; }
+
+.icon-instagram:before {
+  content: "\ea92"; }
+
+.icon-twitter:before {
+  content: "\ea96"; }
+
+.icon-dribbble:before {
+  content: "\eaa7"; }
+
+.icon-linkedin:before {
+  content: "\eac9"; }
+
+.icon-pinterest:before {
+  content: "\ead1"; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif; }

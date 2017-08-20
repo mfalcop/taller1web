@@ -1,0 +1,33 @@
+$links:#6A6D7C;
+$links_hover:#FF0000;
+
+
+nav {
+    flex:1 1 50%;
+    position: relative;
+    ul{
+        margin:0;
+        padding:0;
+        position:absolute;
+        right:0;
+        li{
+            border-right: 1px $links solid;
+            display:inline;
+            margin:0 0 0 12px;
+            padding:5px 12px 5px 0;
+            a{
+                color:$links;
+                font-size:17px;
+                line-height:50px;
+                text-decoration:none;
+                transition: color 1s;
+            }
+            :hover{
+                color:$links_hover;
+            }
+        }
+        :last-child{
+            border:none;
+        }
+    }
+}
